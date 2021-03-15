@@ -32,15 +32,15 @@
                 <ul class="list contact-list">
                     <li class="contacts">
                         <a class="mail-link link" href="mailto:info@devstudio.com">
-                            <svg class="tel-icon">
+                            <svg class="contakt-icon" width="16" height="12">
                                 <use href="./images/sprite.svg#icon-envelope">
                                 </use>
                             </svg>
                             info@devstudio.com</a>
                     </li>
                     <li class="contacts">
-                        <a class="tel-link link" href="tel:+380961111111">
-                            <svg class="mail-icon" width="10" height="16">
+                        <a class="mail-link link" href="tel:+380961111111">
+                            <svg class="contakt-icon" width="10" height="16">
                                 <use href="./images/sprite.svg#icon-smartphone">
                                 </use>
                             </svg>
@@ -75,35 +75,37 @@
 
                 <ul class="list portfolio-list">
                     <li class="portfolio-list-item">
-                        <a class="link" href="#">
+                        <a class="link portfolio-link" href="#">
+                            <div class="cards-hover">
                             <img src="./images/portfolio/img-team.jpg" alt="team" width="370" height="294">
                             <div class="portfolio-list-content-wrapper">
                                 <h2 class=img-titel>Technokryak</h2>
-                                <p class="img-description">Web site/p>
+                                <p class="img-description">Web site</p>
+                            </div>
                             </div>
                         </a>
                     </li>
 
                     <li class="portfolio-list-item">
-                        <a class="link" href="#">
+                        <a class="link portfolio-link" href="#">
                             <img src="./images/portfolio/img-poster.jpg" alt="poster" width="370" height="294">
                             <div class="portfolio-list-content-wrapper">
-                                <h2 class=img-titel>Постер New Orlean vs Golden Star</h2>
+                                <h2 class=img-titel>Poster New Orlean vs Golden Star</h2>
                                 <p class="img-description">Design</p>
                             </div>
                         </a>
                     </li>
                     <li class="portfolio-list-item">
-                        <a class="link" href="#">
+                        <a class="link portfolio-link" href="#">
                             <img src="./images/portfolio/img-seafood.jpg" alt="seafood" width="370" height="294">
                             <div class="portfolio-list-content-wrapper">
-                                <h2 class=img-titel>Ресторан Seafood</h2>
+                                <h2 class=img-titel>Seafood</h2>
                                 <p class="img-description">Application</p>
                             </div>
                         </a>
                     </li>
                     <li class="portfolio-list-item">
-                        <a class="link" href="#">
+                        <a class="link portfolio-link" href="#">
                             <img src="./images/portfolio/img-prime.jpg" alt="prime" width="370" height="294">
                             <div class="portfolio-list-content-wrapper">
                                 <h2 class=img-titel>Project Prime</h2>
@@ -112,7 +114,7 @@
                         </a>
                     </li>
                     <li class="portfolio-list-item">
-                        <a class="link" href="#">
+                        <a class="link portfolio-link" href="#">
                             <img src="./images/portfolio/img-boxes.jpg" alt="boxes" width="370" height="294">
                             <div class="portfolio-list-content-wrapper">
                                 <h2 class=img-titel >Project Boxes</h2>
@@ -121,7 +123,7 @@
                         </a>
                     </li>
                     <li class="portfolio-list-item">
-                        <a class="link" href="#">
+                        <a class="link portfolio-link" href="#">
                             <img src="./images/portfolio/img-insiration.jpg" alt="insiration" width="370" height="294">
                             <div class="portfolio-list-content-wrapper">
                                 <h2 class=img-titel>Inspiration has no Borders</h2>
@@ -129,17 +131,17 @@
                             </div>
                         </a>
                     <li class="portfolio-list-item">
-                        <a class="link" href="#">
+                        <a class="link portfolio-link" href="#">
                             <img src="./images/portfolio/img-limited_edition.jpg" alt="limited_edition" width="370"
                                 height="294">
                             <div class="portfolio-list-content-wrapper">
-                                <h2 class=img-titel>Limited Edition</h2>
+                                <h2 class=img-titel> Limited Edition</h2>
                                 <p class="img-description">Design</p>
                             </div>
                         </a>
                     </li>
                     <li class="portfolio-list-item">
-                        <a class="link" href="#">
+                        <a class="link portfolio-link" href="#">
                             <img src="./images/portfolio/img-lab.jpg" alt="lab" width="370" height="294">
                             <div class="portfolio-list-content-wrapper">
                                 <h2 class=img-titel >Project LAB</h2>
@@ -148,12 +150,12 @@
                         </a>
                     </li>
                     <li class="portfolio-list-item">
-                        <a class="link" href="#">
+                        <a class="link portfolio-link" href="#">
                             <img src="./images/portfolio/img-growing_business.jpg" alt="growing_business" width="370"
                                 height="294">
                             <div class="portfolio-list-content-wrapper">
                                 <h2 class=img-titel>Growing Business</h2>
-                                <p class="img-description">Application</p>
+                                <p class="img-description">Applicatio</p>
                             </div>
                         </a>
                     </li>
@@ -162,26 +164,59 @@
         </section>
     </main>
     <footer class="footer">
-        <div class="container">
+        <div class="container footer-flex">
             <!--Contacts-->
-            <div class="logo-wrapper">
+            <div class="foter-wrapper">
                 <a class="logo-link-footer link" href="" lang="en"><span class="logo-web">Web</span>Studio</a>
+    
+                <address class="address">
+                    <ul class="list list-contacts">
+                        <li class="contacts-footer">
+                            <a class="address-footer link" href="">Kiev, prospekt Lesi Ykrainki 26</a>
+                        </li>
+                        <li class="contacts-footer">
+                            <a class="mail-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        </li>
+                        <li class="contacts-footer">
+                            <a class="tel-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+                        </li>
+                    </ul>
+                </address>
             </div>
-            <address class="address">
-                <ul class="list list-contacts">
-                    <li class="contacts-footer">
-                        <a class="address-footer link" href="">Kiev, prospekt Lesi Ykrainki 26</a>
+            <div class="fotter-link">
+                <p class="subscribe">subscribe</p>
+                <ul class="subscribe-list list">
+                    <li class="subscribe-list-item">
+                        <a class="subscribe-list-link link" href="">
+                            <svg class="social-list-icon" width="20px" height="20px">
+                                <use href="./images/sprite.svg#icon-instagram-1"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li class="contacts-footer">
-                        <a class="mail-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <li class="subscribe-list-item">
+                        <a class="subscribe-list-link link" href="">
+                            <svg class="social-list-icon" width="20px" height="20px">
+                                <use href="./images/sprite.svg#icon-twitter-2"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li class="contacts-footer">
-                        <a class="tel-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+                    <li class="subscribe-list-item">
+                        <a class="subscribe-list-link link" href="">
+                            <svg class="social-list-icon" width="20px" height="20px">
+                                <use href="./images/sprite.svg#icon-facebook-3"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="subscribe-list-item">
+                        <a class="subscribe-list-link link" href="">
+                            <svg class="social-list-icon" width="20px" height="20px">
+                                <use href="./images/sprite.svg#icon-linkedin-4"></use>
+                            </svg>
+                        </a>
                     </li>
                 </ul>
-            </address>
+            </div>
         </div>
     </footer>
-</body>
-
+</body>   
 </html>
